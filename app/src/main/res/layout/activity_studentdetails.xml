@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".studentdetails">
+
+    <ImageButton
+        android:layout_marginTop="10dp"
+        android:id="@+id/student_info"
+        android:tag="@string/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="230sp"
+        app:srcCompat="@color/colorAccent"
+        android:layout_marginBottom="10sp"/>
+
+    <ImageButton
+        android:id="@+id/student_accadimic"
+        android:layout_width="match_parent"
+        android:layout_height="230sp"
+        app:srcCompat="@color/colorPrimary"
+        android:layout_marginBottom="10sp"/>
+
+    <ImageButton
+        android:id="@+id/student_rotune"
+        android:layout_width="match_parent"
+        android:layout_height="230sp"
+        app:srcCompat="@android:color/holo_blue_dark" />
+</LinearLayout>

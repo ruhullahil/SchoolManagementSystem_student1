@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SchoolManagementSystem_student</string>
+    <string name="id">id</string>
+    <string name="password">pasword</string>
+</resources>
